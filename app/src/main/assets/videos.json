@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Demo Trailer",
+    "thumbnailUrl": "https://picsum.photos/seed/trailer/640/360",
+    "videoUrl": "https://storage.googleapis.com/exoplayer-test-media-0/play.mp3", 
+    "haptics": {
+      "version": 1,
+      "events": [
+        { "t": 400, "type": "primitive", "primitive": "CLICK" },
+        { "t": 1200, "type": "primitive", "primitive": "HEAVY_CLICK" },
+        { "t": 2000, "type": "waveform", "timings": [0,50,30,50], "amplitudes":[0,255,0,180] }
+      ]
+    }
+  },
+  {
+    "title": "Nature Clip",
+    "thumbnailUrl": "https://picsum.photos/seed/nature/640/360",
+    "videoUrl": "https://html5demos.com/assets/dizzy.mp4",
+    "haptics": { "version": 1, "events": [ { "t": 800, "type": "primitive", "primitive": "TICK" } ] }
+  },
+  {
+    "title": "Action Scene",
+    "thumbnailUrl": "https://picsum.photos/seed/action/640/360",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "haptics": { "version": 1, "events": [ { "t": 300, "type": "primitive", "primitive": "CLICK" }, { "t": 1500, "type": "primitive", "primitive": "THUD" } ] }
+  }
+]

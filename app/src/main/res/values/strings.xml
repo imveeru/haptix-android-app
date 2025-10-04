@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Haptix</string>
+    
+    <!-- Main Activity -->
+    <string name="info_button_description">Information</string>
+    <string name="video_thumbnail_description">Video thumbnail</string>
+    <string name="haptics_enabled">Haptics enabled</string>
+    
+    <!-- Player Activity -->
+    <string name="haptics_toggle_label">Haptics</string>
+    <string name="haptics_toggle_description">Toggle haptic feedback on/off</string>
+    <string name="powered_by_haptics">Powered by custom haptics</string>
+    
+    <!-- Error Messages -->
+    <string name="haptics_not_supported">Haptics not supported on this device</string>
+    <string name="video_load_error">Failed to load video</string>
+    <string name="haptics_load_error">Failed to load haptics data</string>
+</resources>
